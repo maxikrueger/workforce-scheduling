@@ -1,0 +1,11 @@
+# Laufzeit
+optapy==9.37.0b0     # Constraint-Solver (Python-Wrapper um OptaPlanner, benötigt JDK 17+)
+JPype1>=1.4.1
+appdirs>=1.4.4       # Plattformgerechte Pfade für Datenbank und Logs
+tkcalendar>=1.6.1    # Datumsauswahl in den Dialogen
+
+# Tests
+pytest>=7.4.0
+
+# Build (optional, Windows-Executable)
+# pyinstaller>=6.0
